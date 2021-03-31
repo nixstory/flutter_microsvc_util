@@ -1,6 +1,6 @@
 # flutter_microsvc_util
 
-A new flutter plugin project.
+Flutter Util for Native (Android/iOS)
 
 ## Getting Started
 
