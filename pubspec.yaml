@@ -1,6 +1,6 @@
 name: flutter_microsvc_util
 description: Flutter Util for Native (Android/iOS)
-version: 0.0.2
+version: 0.0.3
 # author:
 homepage: http://gsshop.com
 
@@ -11,10 +11,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  package_info: ^2.0.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -1,6 +1,7 @@
 package com.gsshop.flutter_microsvc_util;
 
 import androidx.annotation.NonNull;
+import android.content.pm.PackageInfo;
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin;
 import io.flutter.plugin.common.MethodCall;
@@ -16,7 +17,7 @@ public class FlutterMicrosvcUtilPlugin implements FlutterPlugin, MethodCallHandl
   /// This local reference serves to register the plugin with the Flutter Engine and unregister it
   /// when the Flutter Engine is detached from the Activity
   private MethodChannel channel;
-
+  
   @Override
   public void onAttachedToEngine(@NonNull FlutterPluginBinding flutterPluginBinding) {
     channel = new MethodChannel(flutterPluginBinding.getBinaryMessenger(), "flutter_microsvc_util");

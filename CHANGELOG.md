@@ -1,3 +1,3 @@
-## 0.0.2
+## 0.0.3
 
-* null safety apply
+* import package (package_info / flutter.dev)

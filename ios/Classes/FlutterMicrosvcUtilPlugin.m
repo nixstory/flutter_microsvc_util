@@ -1,5 +1,7 @@
 #import "FlutterMicrosvcUtilPlugin.h"
 
+// #define CURRENTAPPVERSION [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleShortVersionString"]
+
 @implementation FlutterMicrosvcUtilPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
   FlutterMethodChannel* channel = [FlutterMethodChannel
